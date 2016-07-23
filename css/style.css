@@ -1,0 +1,47 @@
+/*全局样式*/
+body,p,h1,h2,h3,h4,ul,li,dd,dl,dt,ol,table,tr,th,tbody,td,input { margin: 0; padding:0; }
+body { font-size: 14px; font-family: '黑体',arial; background: #dedede; line-height: 26px; }
+li,dl { list-style: none; }
+img { border:none; }
+a { text-decoration: none; }
+
+/*公用样式*/
+
+.fl { float:left; }
+.fr { float:right; }
+.block { width:1238px; border:1px solid #cdcdcd; background: #fff; margin: 20px auto; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
+.sideBar { width:1238px; border:1px solid #cdcdcd; background: #fff; margin: 20px auto; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
+.firstP { text-indent: 24px; }
+.footer { height:70px; background: #000; }
+
+/*清除浮动*/
+.clearFloat { zoom:1; } /*==for IE6/7 Maxthon2==*/
+.clearFloat:after { clear:both; content:''; display: block; width:0; height:0; visibility: hidden; } /*==for FF/chrome/opera/IE8==*/
+
+/*文章结构*/
+.header { height:60px; background: #333; }
+.header h1 { height:60px; width:60px; font-size: 0; margin-left: 40px; background: url(../img/xieyi.jpg) no-repeat; }
+.header ul { margin-right:10px; }
+.header li { display: inline-block; height:62px; line-height: 60px; overflow: hidden; }
+.header li:hover { background: #c80000; }
+.header a { display:block; height:60px; padding:0 10px; background: #333; color:#fff; }
+.header a:hover { color: #9ba2ac; }
+
+.block h1 { font-size: 21px; margin:20px 0 22px; }
+.block h2 { font-size: 14px; color:#5c6560; margin-bottom: 18px; }
+.block h3 { font-size: 12px; color:#5c6560; margin-bottom: 20px; font-weight: normal; }
+.block img { margin:10px 0; }
+.block ul,.block dd { margin-left: 20px; }
+.block dl { display: block; width:120px; height:124px; margin-bottom:15px; border:1px solid #cbcbcb; }
+.block dl p { text-align:center; line-height: 34px;}
+.block dl img { display: block; width:100px; height:80px; margin:0 auto 10px; }
+.block ol { margin-left:24px; }
+.block ol li { list-style-type: decimal; }
+
+.block table { width:100%;  border-collapse:collapse; border-color: #ccc; text-align: left;}
+.block td { padding:0; }
+.block th { background: #333; }
+.block .table-footer { background: #cecece; }
+
+
+.footer p { line-height: 70px; color:#fff; text-align: center; }
