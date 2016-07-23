@@ -9,8 +9,8 @@ a { text-decoration: none; }
 
 .fl { float:left; }
 .fr { float:right; }
-.block { width:1238px; border:1px solid #cdcdcd; background: #fff; margin: 20px auto; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
-.sideBar { width:1238px; border:1px solid #cdcdcd; background: #fff; margin: 20px auto; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
+.block { border:1px solid #cdcdcd; background: #fff; margin: 20px; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
+.sideBar { border:1px solid #cdcdcd; background: #fff; margin: 20px; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
 .firstP { text-indent: 24px; }
 .footer { height:70px; background: #000; }
 
