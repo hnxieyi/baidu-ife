@@ -1,0 +1,16 @@
+div { padding:20px; border:1px solid #999; background: #fff; }
+
+p,ul,li,img{ padding:0; margin:0; }
+.content { min-width: 500px; background: #eee; } 
+
+.name { width:160px; float:left; }
+.name img { float:left; padding-right:10px; }
+
+
+.side { width:80px; float:right; }
+.side li { list-style: none; margin-top:20px; }
+.side .first { margin-top:0; }
+
+.main { min-width: 100px; margin-left:222px; margin-right:142px; }
+.clearFloat { zoom:1; } /*==for IE6/7 Maxthon2==*/
+.clearFloat:after { clear:both; content:''; display: block; width:0; height:0; visibility: hidden; } /*==for FF/chrome/opera/IE8==*/
