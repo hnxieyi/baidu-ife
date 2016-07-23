@@ -10,7 +10,7 @@ a { text-decoration: none; }
 .fl { float:left; }
 .fr { float:right; }
 .block { border:1px solid #cdcdcd; background: #fff; margin: 20px; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
-.sideBar { border:1px solid #cdcdcd; background: #fff; margin: 20px; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
+.sideBar { width:1200px; border:1px solid #cdcdcd; background: #fff; margin: 20px; padding:20px; box-shadow: 1px 1px 2px #9f9f9f; }
 .firstP { text-indent: 24px; }
 .footer { height:70px; background: #000; }
 
@@ -35,7 +35,7 @@ a { text-decoration: none; }
 .block dl { display: block; width:120px; height:124px; margin-bottom:15px; border:1px solid #cbcbcb; }
 .block dl p { text-align:center; line-height: 34px;}
 .block dl img { display: block; width:100px; height:80px; margin:0 auto 10px; }
-.block ol { margin-left:24px; }
+.block ol { margin:21px 0 24px 30px; }
 .block ol li { list-style-type: decimal; }
 
 .block table { width:100%;  border-collapse:collapse; border-color: #ccc; text-align: left;}
@@ -43,5 +43,9 @@ a { text-decoration: none; }
 .block th { background: #333; }
 .block .table-footer { background: #cecece; }
 
+.sideBar h1 { height:38px; border-left:3px solid #cdcdcd; padding-left:10px; font-size:16px; line-height: 38px; }
+.sideBar h2 { font-size: 0; }
+.sideBar input { margin-left:388px; }
+.sideBar span {  }
 
 .footer p { line-height: 70px; color:#fff; text-align: center; }
