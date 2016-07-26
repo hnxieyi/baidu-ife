@@ -15,7 +15,7 @@ a { text-decoration: none; }
 .footer { height:70px; background: #000; }
 
 /*清除浮动*/
-.clearFloat { zoom:1; width:100%; } /*==for IE6/7 Maxthon2==*/
+.clearFloat { zoom:1; } /*==for IE6/7 Maxthon2==*/
 .clearFloat:after { clear:both; content:''; display: block; width:0; height:0; visibility: hidden; } /*==for FF/chrome/opera/IE8==*/
 
 /*文章结构*/
