@@ -1,0 +1,148 @@
+/*格式化样式*/
+html,body,h1,h2,h3,ul,li,form,tr,td,p,a,input { padding:0; margin:0; }
+body { font-family: '微软雅黑',arial; font-size:12px; background: #fff; }
+h1,h2,h3 { font-family: '黑体'; font-weight: normal; }
+li { list-style: none; }
+a { text-decoration: none; }
+input { border:none; outline: none; cursor:pointer; }
+
+
+/*清除浮动*/
+.clear { zoom:1; }
+.clear:after { display: block; clear:both; height:0; width:0; visibility: hidden; content: ''; }
+
+/*全局样式*/
+.fl { float: left; }
+.fr { float: right; }
+
+h2 { font-size:21px;  }
+h3 { font-size:14px;  }
+.line { width:31px; height: 3px; margin:0 auto; background: #fff; }
+
+
+/*结构样式*/
+.header { height:56px; max-width: 1280px; margin:0 auto; background: #fff; }
+.logo { height:31px; margin:13px 0 0 60px; }
+.logo img { float: left; width:31px; height:31px; }
+.logo h2 { float:left; height: 31px; margin-left:11px; line-height: 31px; }
+
+.nav { margin-right:67px; }
+.nav li { float:left; height:56px; margin:0 4px; }
+.nav a { display: block; height:52px; padding:0 17px 0 20px; border-bottom:4px solid #fff; font-size: 14px;  color:#787b83; line-height: 56px; }
+.nav a:hover,.nav .first a { color:#e74f4d; border-bottom:4px solid #e74f4d; }
+.nav .logIn a { border:none; background: url(../img/test7/login.png) no-repeat left center; padding-left:20px; color:#e74f4d; }
+
+.content { max-width: 1280px; min-width: 1000px; margin:0 auto; }
+.mainImg { height:690px;  position: relative; background: url(../img/test7/head.jpg) no-repeat center top; }
+.mainImg .opacity { height:690px; width:100%; position: absolute; top:0; left:0; background: #030000; opacity: 0.2; filter:alpha(opacity=20); }
+.mainImg-text { position: absolute; left:117px; top:223px; color:#fff; }
+.mainImg-text h1 { font-size: 60px; padding-bottom: 30px; }
+.mainImg-text h2 { line-height: 33px; padding-bottom: 68px; }
+.mainImg-text input { width:330px; height: 63px; font-size:30px; font-family: '微软雅黑'; color:#fff; text-align: center; background: #e74f4d; }
+
+.content-nav { max-width: 1280px; min-width: 1000px; overflow: hidden; }
+.content-nav ul { width:1280px; margin:0 auto; }
+.content-nav ul li { display: inline-block; margin-right:-3px; position: relative; width:320px; height:250px; }
+.content-nav ul p { height:52px; margin-top:133px; line-height: 18px; color:#767777; text-align:center; border-right:2px solid #bbbbbb; }
+.content-nav ul img { position: absolute; left:50%; top:44px; margin-left:-21px; }
+.content-nav ul .last p { border:none; }
+
+.about { height: 356px; background:url(../img/test7/logo.png) no-repeat center 100px #ededed; }
+.about h1 { font-size:54px; text-align: center; line-height:510px;  color:#8f8f8f;  }
+.about img { position: absolute; left:50%; margin-left:-45px; }
+
+.search { height:340px; position: relative; background: url(../img/test7/center.jpg); }
+.search .opacity { height:340px; width:1280px; opacity: absolute; top:0; left:0; background: #aa3433; opacity: 0.2; filter:alpha(opacity=20); }
+.search .search-content { width:1280px; position: absolute; left:0; top:0; z-index: 2; }
+.search-content h2 { text-align: center; font-family: '微软雅黑'; color:#fff; margin-top:53px; margin-bottom: 10px; }
+.search-content p { color:#fff; text-align: center; margin-top:20px; margin-bottom:52px; }
+.search-content form { width:1050px; margin:0 auto; }
+.search-content form select { width: 236px; height:36px; background: #fff; margin-right:28px; }
+.search-content form select:hover { border:2px solid #be4e48; }
+.search-content input { width:236px; height: 36px; background: #be4e48; color:#fff; }
+.search-content form select option { width:235px; height: 26px; background: #e3e3e4; color:#323333; line-height: 26px; }
+
+.event { height:600px; background: #f7f7f7; }
+.event ul { width:1064px; margin:0 auto; padding-top:100px; overflow: hidden; }
+.event li { float: left; width:230px; height: 440px; position: relative; margin:0 18px; cursor:pointer; }
+.event img { position: absolute; left:0; top:0;  padding:13px 8px;  border:1px solid #dadada; }
+.event .event-text { position: absolute; left:0; top:350px; }
+.event-text h3,.event-text p { text-align: center; width:220px;  }
+.event-text h3 { margin-top:14px; margin-bottom: 10px; }
+.event-text p { color:#9e9f9f; }
+.event li:hover img { top:54px; }
+.event li:hover .event-text { top:0; }
+.event li:hover .event-text h3 { font-size:19px; width:250px; margin-top:0; letter-spacing: 38px; text-indent: 19px; overflow: hidden; }
+
+.time { height:567px; width: 1280px; margin:0 auto; }
+.time .time-img { float:left; width:850px; height:567px; background: url(../img/test7/time.jpg) no-repeat; }
+.time .time-img { text-align: center; color:#fff; }
+.time-img h2 { font-size: 50px; line-height: 50px; margin-top: 134px; margin-bottom:12px; }
+.time-img h1 { font-size:158px; line-height: 119px; margin-bottom:40px; background: url(../img/test7/arrow-left.png) no-repeat right 70px; }
+.time-img p { font-size: 22px; line-height: 45px; }
+
+.time .time-text { float:right; width:430px; }
+.time-text ul { width:290px; margin:0 auto; }
+.time-text li { text-align: center; }
+.time-text li h2 { font-size:20px; color:#000; margin-top:164px; margin-bottom: 30px; }
+.time-text li span { color:#e74f4d; }
+.time-text li p { text-align: left; font-size: 12px; line-height: 30px; color:#aaaaaa; margin-bottom: 50px; }
+.time-text li input { width:104px; height:31px; margin-bottom: 24px; border:1px solid #e74f4d; background: #fff; color:#e74f4d; }
+.time-text .point { width:96px; margin:0 auto; }
+.time-text .point li { margin:10px; float: left; }
+.time-text .point li div { width:10px; height:10px; border:1px solid #ccc; background: #fff; border-radius:6px; cursor:pointer; }
+.time-text .point li div:hover,.time-text .point .first div { background: #ccc; }
+
+.checkout { width:1280px; height:520px; margin:0 auto; background: url(../img/test7/check.jpg) no-repeat right 0; }
+.check-block { width:425px; height: 520px; float: left; text-align: center; }
+.red { background: #e8504e; }
+.red h2 { color:#fff; }
+.white { background: #fff; position: relative; }
+.arrow-right { position: absolute; top:240px; right:-26px; z-index: 2; }
+.white .line { background: #000; }
+.black { background: #000; opacity: 0.4; width:430px; filter:alpha(opacity=40); }
+
+.check-block .line { margin:25px auto; }
+.check-block h2 { font-size:21px; line-height: 31px; margin-top:173px; }
+.check-block input { width:167px; height:41px; font-size:21px; color:#e8504e; border:1px solid #e8504e; background: #fff; }
+.red input { background: #e8504e; color:#fff; border-color:#fff; }
+
+.vol { width:1280px; height:180px; background: #fff; text-align: center; margin:0 auto; }
+.vol .line { background: #e7504d; margin-bottom: 15px; }
+.vol p { color:#aaa; line-height: 18px; }
+.vol h2 { margin-top:120px; margin-bottom: 10px; }
+
+.form { width:1280px; height: 450px; margin:0 auto; }
+.form-text { float:left; margin-left:138px;  }
+.form-text ul { width:288px; color:#231815; }
+.form-text li { margin-bottom: 57px; }
+.form-text h3 { margin-bottom:26px; font-size:14px; }
+.form-text p { font-family: '宋体';  line-height: 21px; }
+.form-text span { float: right; width:80px; text-indent: 20px; background: url(../img/test7/arrow-down.png) no-repeat 0 6px; cursor: pointer; }
+.form-table { float: right; margin-right: 138px; color:#231815; }
+.form-table td { width:310px; height:40px; text-indent: 20px; margin: 14px; background: #ededef; }
+.form-table input { height:40px; font-size: 14px; background: #ededef; font-family: '宋体'; }
+.form-table .dis { height:120px; text-indent: 0;  }
+.form-table .dis textarea { border:0; background:#ededef; width:620px; outline: none; text-indent:16px; line-height: 20px; color:#231815; font-size:12px; }
+.form-table .re  { text-align: center; text-indent: 0; }
+.form-table .re input { font-size:12px; color:#231815; width:100%; }
+.form-table .re input:hover { background:#ccc; }
+
+.footer { height: 416px; background: #32353e; border-top:1px solid #8c8e93; color:#fff;  }
+
+.contact { text-align: center; margin-top:90px; }
+.contact h2 { margin-bottom: 10px; }
+.contact p { line-height: 18px; margin-bottom:30px; }
+.contact input[type=text]{ width:430px; height:40px; text-indent: 10px; color:#aaa; cursor:text; vertical-align: middle; }
+.contact input[type=button]{ width:80px; height:40px; margin-left:-4px; background: #6f7178; font-size: 15px; color: #fff; vertical-align: middle; }
+.contact ul { margin-top:35px; margin-bottom: 70px; }
+.contact ul li { display: inline-block; margin:10px; }
+
+
+.bottom { height: 60px; background: #303039; }
+.bottom p {line-height: 60px; color:#fff; }
+.bottom .fl { margin-left:100px; }
+.bottom .fr { margin-right:40px; }
+.bottom .fr a { color:#fff; }
+
+
