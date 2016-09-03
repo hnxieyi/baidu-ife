@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE-10-2</title>
+<style>
+body { margin:0; font-size:0; }
+.wrap { display: -webkit-flex; display: flex; width:100%; flex-flow: row wrap; align-items: center; justify-content: space-between; border:none; }
+div { padding:20px; width:150px; border:1px solid #f00; box-sizing: border-box; float: left; margin-bottom:20px; }
+.h120 { height:120px; }
+.h100 { height: 100px; }
+.h40 { height:40px; }
+.h200 { height: 200px; border-color:#0000ff; }
+@media ( max-width:640px ){
+    .wrap { align-items: flex-start; }
+    .h200 { order:-1; }
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+    <div class="h120"></div>
+    <div class="h100"></div>
+    <div class="h40"></div>
+    <div class="h200"></div>
+</div>
+</body>
+</html>
