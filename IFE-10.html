@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE-10</title>
+<style>
+body { margin:0; font-size:0; }
+div {display: inline-block; padding:20px; width:150px; border:1px solid #f00; box-sizing: border-box; }
+@media (min-width: 640px){
+    div {   vertical-align: middle; }
+    .h120 { height: 120px; }
+    .h100 { height: 100px; margin-left:calc( 33.33333% - 200px ); }
+    .h40 { height: 40px; margin-left:calc( 33.33333% - 200px ); }
+    .h200 { height: 200px; border:1px solid #0f0; margin-left:calc( 33.33333% - 200px ); }
+}
+@media ( max-width:640px ) {
+    div { vertical-align: top; }
+    .h120 { height: 120px; margin-left:calc( 33.33333% - 200px ); }
+    .h100 { height: 100px; margin-left:calc( 33.33333% - 200px ); }
+    .h40 { height: 40px; margin-left:calc( 33.33333% - 200px ); }
+    .h200 { height: 200px; border:1px solid #0f0; margin-left:0; float:left; }
+} 
+@media ( max-width: 600px ){    
+    div { vertical-align: top; }
+    .h120 { height: 120px; margin-left:calc( 33.33333% - 200px ); }
+    .h100 { height: 100px; margin-left:calc( 33.33333% - 200px ); }
+    .h40 { height: 40px; margin-left:calc( 33.33333% - 200px ); float:left; }
+    .h200 { height: 200px; border:1px solid #0f0; margin-left:0; float:left; }
+}
+</style>
+</head>
+<body>
+    <div class="h120"></div>
+    <div class="h100"></div>
+    <div class="h40"></div>
+    <div class="h200"></div>
+</body>
+</html>
