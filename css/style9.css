@@ -153,6 +153,8 @@ b { font-weight: normal; font-family: '宋体'; }
 .canlendar-body p span { color:red; }
 .canlendar-body .border-active { border:1px solid #f7d563; }
 .mainTable-tab table { width:448px; height: 273px; margin:18px auto; text-align: center; }
+.mainTable-tab table tbody tr { cursor: pointer; }
+.mainTable-tab table tbody tr:hover { background: #f4f5f7; }
 .mainTable-tab table,.mainTable-tab tr,.mainTable-tab td,.mainTable-tab th { border:1px solid #cacbcb; border-collapse: collapse; }
 .mainTable-tab .w66 { width:66px; }
 .mainTable-tab .w90 { width:90px; }
