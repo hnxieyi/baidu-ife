@@ -23,6 +23,16 @@ a { text-decoration: none; }
 .top-name p span { color:#777; }
 .top-name img { width:1.28rem; padding:0.03rem; background-color: #fff; border:1px solid #e5e5e5;  }
 
+.footer { position: fixed; bottom:0; z-index: 999; width:100%; height:1rem; background:#fff; border-top:.02rem solid #e5e5e5; }
+.footer ul { width:7.5rem; margin:.12rem auto 0; overflow: hidden; min-width:3em; text-align: center; }
+.footer li,.footer span { display: inline-block; text-align: center; }
+.footer li { margin:0 .5rem; }
+.footer li:first-child { margin-left:0; }
+.footer li:last-child { margin-right: 0; }
+.footer span { margin:0; }
+.footer li img { width:.4rem; height: .4rem; }
+.footer span img { width:.7rem; height: .7rem; }
+.footer li a { color:#777; font-size:.22rem; }
 /* 通用的块 */
 .block { margin:0 .2rem; }
 .block .block-user { width:.88rem; float: left; margin:0 .2rem 0 .08rem; }
@@ -43,7 +53,7 @@ a { text-decoration: none; }
 .block-dialog-fav ul,.block-dialog-fav li { display: inline-block; margin-right:.2rem; line-height: .57rem; color:#a9c8e4; }
 .block-dialog-text { width: 100%; background:#f0f2f5; border-radius: .03rem; }
 .block-dialog-text img { width:.3rem; height: .3rem; margin-left:.13rem; margin-top:.2rem; float: left; }
-.block-dialog-text ul { margin-left:.57rem; margin-top:.2rem; padding-top:.16rem; padding-left:.1rem; padding-bottom:.1rem; padding-right:.2rem; }
+.block-dialog-text ul { margin-left:.57rem;  padding-top:.16rem; padding-left:.1rem; padding-bottom:.1rem; padding-right:.2rem; }
 .block-dialog-text li { margin-bottom:.1rem; font-size:.2rem; color:#777; }
 .block-dialog-text li a { color:#a9c8e4; font-size:.2rem; }
 .block-dialog .block-arrow { position: absolute; top:-.15rem; right:.1rem; border:.08rem solid #fff; border-bottom-color: #f0f2f5; background:#f0f2f5; }
@@ -53,7 +63,7 @@ a { text-decoration: none; }
 .block-more-content .block-more-arrow { position: absolute; right:-.15rem; top:.24rem; border:.08rem solid #fff; border-left-color: #777; }
 .block-more-content li { display: inline-block; line-height: .64rem; margin:0 .23rem; }
 .block-more-content li img { vertical-align: middle; width:.4rem; height: .4rem; margin-right: .06rem; }
-.block-dialog { margin-bottom: .2rem; }
+.block-dialog-text { margin-bottom: .2rem; }
 
 .line { width:100%; height: .02rem; background:#e5e5e5; margin-bottom:.26rem; }
 
@@ -69,3 +79,9 @@ a { text-decoration: none; }
 
 .section5 .block-task-top { display: none; }
 .section5 .ignore { display: block; } 
+
+.section6 .block-task-top { display: none; }
+.section6 .block-more-content { display: block; }
+.section6 .block-dialog-fav { display: block; }
+
+.section7 .block-task-top { display: none; }
