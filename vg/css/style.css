@@ -12,7 +12,7 @@ a { text-decoration: none; }
 /* 结构样式 */
 
 .top-title { height:.9rem; margin:0 .2rem; line-height: .9rem;  }
-.top-title a { float:left; font-size:.36rem; color:#000; }
+.top-title a img { float:left;  width:.23rem; height:.38rem; margin-top:.22rem; }
 .top-title h1 { text-align: center; }
 
 .top-bg { position: relative; margin-bottom: 1.4rem; }
@@ -49,7 +49,7 @@ a { text-decoration: none; }
 .block .block-task-list li { color:#777; margin-bottom:.14rem; font-size:.2rem; }
 .block-dialog { position: relative; }
 .block-dialog .block-dialog-fav { display: none; width:100%; height: .57rem; background-color:#f0f2f5; border-radius: .03rem .03rem 0 0; border-bottom:.02rem solid #fff; }
-.block-dialog-fav img { margin-left:.1rem; margin-right: .2rem; vertical-align: middle; }
+.block-dialog-fav img { width:.3rem; height: .3rem; margin-left:.1rem; margin-right: .2rem; vertical-align: middle; }
 .block-dialog-fav ul,.block-dialog-fav li { display: inline-block; margin-right:.2rem; line-height: .57rem; color:#a9c8e4; }
 .block-dialog-text { width: 100%; background:#f0f2f5; border-radius: .03rem; }
 .block-dialog-text img { width:.3rem; height: .3rem; margin-left:.13rem; margin-top:.2rem; float: left; }
