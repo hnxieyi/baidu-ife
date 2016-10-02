@@ -4,8 +4,11 @@
 .block .content { margin-left:1.17rem; }
 .block .content p { color:#777; line-height: .44rem; margin-bottom:.1rem; }
 .block .content h2 { line-height: .44rem; }
-.block .block-img { height: 2.8rem; width: 4.34rem; margin-bottom: .2rem; overflow: hidden; }
+.block .block-img { height: 2.8rem; width: 4.34rem; margin-bottom: .2rem; overflow: hidden; } /* 单个图片 */
 .block .block-img img { width: 100%; }
+.block .more-imgs ul { width:5rem; } /* 多个图片 */
+.block .more-imgs li { width:1.36rem; height: 1.36rem;  overflow: hidden; display: inline-block; }
+.block .more-imgs li img { height:1.36rem; }
 .block .block-task-top p { display: inline-block; color:#000; }
 .block .block-task-top { margin-bottom: .1rem; }
 .block-task-top p img { width:.3rem; vertical-align:middle; margin-right:.1rem; } 

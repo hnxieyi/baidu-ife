@@ -15,7 +15,7 @@ em { font-style: normal; }
 .top-title { height:1.28rem; line-height: 1.28rem; background-color: #fffaf3; margin-bottom: .2rem; border-bottom: .02rem solid #e5e5e5; overflow: hidden; }
 .top-title .img-float img { width:.23rem; height:.38rem; }
 .top-title .img-float { float:left; margin-left:.2rem; line-height: 1.52rem; }
-.top-title .search { float:right; margin-right:.2rem; margin-top:; }
+.top-title .search { float:right; margin-right:.2rem; }
 .top-title form { position: relative; width:6.34rem; }
 .top-title form input[type="text"] { width:6.34rem; height: .64rem; border:.02rem solid #a0a0a0; font-size:.2rem; border-radius: .04rem; background:url(../img/search.png) no-repeat .14rem; background-size: .3rem; outline: none; text-indent:.7rem; }
 .top-title form input[type="button"] { position: absolute; right:.2rem; top:.36rem; height:.64rem; border:none; background: none; outline: none; font-size: .25rem; font-family: '微软雅黑'; cursor: pointer; }

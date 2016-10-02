@@ -24,10 +24,12 @@ a { text-decoration: none; }
 .user .apply { float:right; width: 1.7rem; min-width: 90px; height: .48rem; line-height: .48rem; text-align: center; font-size: .2rem; color:#fff; margin-top:.55rem; margin-right:.21rem; border-radius: .24rem; background-color: #9ea6d7; cursor: pointer;  }
 
 .order { }
-.order li { height: .7rem; line-height: .7rem; padding-left:.4rem; border-top:.02rem solid #eee; }
+.order li {line-height: .7rem; padding-left:.4rem; border-top:.02rem solid #eee; }
 .order li h2,.order li p { display: inline-block; vertical-align: middle; }
 .order li p { font-family: '宋体'; float: right;  }
 .order li p img { width:.47rem; height:.47rem; vertical-align: middle; margin-right:.4rem; }
+.order li:last-child { border-bottom: .02rem solid #eee; }
 .order li ul li { line-height: .7rem; line-height: .7rem; border-bottom:.02rem solid #eee; }
+.order li ul li:last-child { border:none; }
 .order li ul li img { width:.47rem; height: .47rem; vertical-align: middle; margin-right:.3rem; }
 .order li ul li img:last-child { float: right; margin-top:.1rem; margin-right:.4rem; }
