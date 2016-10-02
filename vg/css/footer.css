@@ -4,6 +4,7 @@
 .footer li,.footer span { display: inline-block; text-align: center; }
 .footer li { margin:0 .5rem; }
 .footer li:first-child { margin-left:0; }
+.footer .active a { color:#ff6600; }
 .footer li:last-child { margin-right: 0; }
 .footer span { margin:0; }
 .footer li img { width:.4rem; height: .4rem; }

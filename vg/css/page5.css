@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.26rem; font-weight: normal; }
+body{ height:100%; }
+h1 { font-size:0.36rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+.clear :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+/* 头部 */
+.header { height: 1rem; line-height: 1rem; text-align: center; background-color: #fffaf3; }
+.content .market { width:7.16rem; height:6.48rem; padding-top:1.28rem; background-color: #71c2de; border-radius: .06rem; margin:.2rem auto; }
+.content .market img { display: block; width:1.3rem; height: 1.23rem;  margin:0 auto .3rem; }
+.content .market h1,.content .market p { text-align: center; color: #fff; line-height: .4rem; }
+.content .market h1 { margin-bottom: .2rem; }
+.content .market p { margin-bottom: .78rem; }
+.content .market ul { text-align: center; }
+.content .market li { display: inline-block; margin:0 .2rem; font-size: .4rem; color:#fff; }
+.content .market li img { width: .69rem; height: .69rem; }
+.content .content-active { width:7.16rem; margin:.2rem auto; display: flex; display: -webkit-flex; overflow: auto; }
+.content-active .exp,.content-active .tickets { flex:1; width:3.48rem; height: 4.33rem; border-radius: .06rem; background-color: #ec6941; }
+.content-active .exp { margin-right:.1rem; }
+.content-active .exp h1 { width: 1.6rem; margin: 0 auto; text-align: center; color: #fff; margin-bottom: .36rem; }
+.content-active .exp img { width: 1.3rem; height: 1.23rem; margin-bottom: .3rem; margin-top:1.08rem; }
+.content-active .exp p { width:100%; text-align: center; color:#fff; }
+.content-active .exp p span { display: inline-block; margin:0 .3rem; }
+.content-active .exp p span:first-child { margin-left:0; }
+.content-active .exp p span:last-child { margin-right:0; }
+
+.content-active .tickets { background-color: #f8b551; text-align: center; }
+.content-active .tickets img { width:1.3rem; height: 1.23rem; margin-top:1.1rem; margin-bottom: .5rem; }
+.content-active .tickets p { font-size: .56rem; color:#fff; }
+
+.add { height:1rem; width:100%; }

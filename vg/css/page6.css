@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.26rem; font-weight: normal; }
+body { height: 100%; }
+h1 { font-size:0.36rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+/* 头部 */
+.top-title { height:1.28rem; background-color: #fffaf3; margin-bottom: .2rem; border-bottom: .02rem solid #e5e5e5; }
+.top-title-con { display: flex; display: -webkit-flex; padding:0 .2rem; }
+.top-title span { flex:1; text-align: center; font-size: .24rem; color:#fff; }
+.top-title span:first-child { text-align: left; }
+.top-title span:first-child img { width:.69rem; height:.2rem; }
+.top-title span:last-child { text-align: right; }
+.top-title span:last-child img { width:.5rem; height:.2rem; }
+.top-title-text { margin:.26rem .2rem; }
+.top-title-text img { vertical-align: middle; width:.23rem; height:.38rem; }
+.top-title-text form { float: right; margin-top:-.2rem; }
+.top-title-text form input[type="text"] { width:6.34rem; height: .64rem; border:.02rem solid #a0a0a0; font-size:.2rem; border-radius: .04rem; background:url(../img/search.png) no-repeat .14rem; background-size: .3rem; outline: none; text-indent:.7rem; }
+.top-title-text form input[type="button"] { height:.64rem; margin-left:-1rem; border:none; background: none; outline: none; font-size: .25rem; font-family: '微软雅黑'; cursor: pointer; }
+
+/* 内容 */
+.content { width:7.08rem; height: 4.84rem; margin:0 auto; border:.02rem solid #e5e5e5; padding:.09rem; background-color:#fff; }
+.content img { width: 7.08rem; }
+.content .top-bg-opacity { position: relative; height:.67rem; margin-top: -.73rem; background:rgba(0,0,0,0.4); }
+.content .top-name { position: absolute; top:0; left:.2rem; }
+.content .top-name img { float:left; border:.01rem solid #e5e5e5; padding: .03rem; background-color: #fff; width:1.28rem; height: 1.28rem; }
+.content .top-name h1 { float: left; margin-left:.18rem; margin-top: .1rem; color:#fff; }
