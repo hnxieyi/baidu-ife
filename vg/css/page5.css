@@ -37,3 +37,4 @@ em { font-style: normal; }
 .content-active .tickets p { font-size: .56rem; color:#fff; }
 
 .add { height:1rem; width:100%; }
+body .footer { position: relative; }
