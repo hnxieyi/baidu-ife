@@ -24,7 +24,7 @@ em { font-style: normal; }
 .content .market li img { width: .69rem; height: .69rem; }
 .content .content-active { width:7.16rem; margin:.2rem auto; display: flex; display: -webkit-flex; overflow: auto; }
 .content-active .exp,.content-active .tickets { flex:1; width:3.48rem; height: 4.33rem; border-radius: .06rem; background-color: #ec6941; }
-.content-active .exp { margin-right:.1rem; }
+.content-active .between { flex:0.06; }
 .content-active .exp h1 { width: 1.6rem; margin: 0 auto; text-align: center; color: #fff; margin-bottom: .36rem; }
 .content-active .exp img { width: 1.3rem; height: 1.23rem; margin-bottom: .3rem; margin-top:1.08rem; }
 .content-active .exp p { width:100%; text-align: center; color:#fff; }
