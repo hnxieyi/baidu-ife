@@ -14,13 +14,13 @@ em { font-style: normal; }
 .clear :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
 
 /* 头部 */
-body .top-title { margin-bottom: 1px; }
+body .top-title { margin-bottom: 1px; border-bottom:1px solid #e5e5e5; }
 body .top-title .img-float img { width:.23rem; height: .38rem; }
 
 /* 内容 */
-.user-info { height: 1.18rem; vertical-align: middle; line-height: .46rem; }
-.user-info img { width:.36rem; height: .36rem; float: left; margin-top: .4rem; }
-.user-info p { float: left; width: 7rem; margin-top: .15rem; margin-left: .1rem; }
+.user-info { position: relative; min-height: 1.18rem; vertical-align: middle; line-height: .46rem; }
+.user-info img { position: absolute; top:.2rem; left:0; display: inline-block; width:.36rem; height: .36rem;  margin-left:.18rem; }
+.user-info p { display: inline-block; width: 6.8rem; margin-top: .15rem; margin-left: .7rem; }
 .user-items { background-color: #eee; padding-top: .1rem; }
 .user-items p { line-height: .6rem; background-color: #fff; margin-bottom: .2rem; }
 .user-items p span { vertical-align: middle; margin-left:.2rem; margin-right: .2rem; }

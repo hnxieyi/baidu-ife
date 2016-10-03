@@ -35,9 +35,10 @@ em { font-style: normal; }
 .product ul li .item img { width:1.48rem; height: 1.48rem; vertical-align: middle; }
 .product ul li .item span { vertical-align: middle; }
  /* 加减数量组件 */
-.addnum { width:2rem; margin:0 auto; }
-.addnum span { display: inline-block; vertical-align: middle; width: .4rem; line-height: .4rem; font-size:.4rem; border:1px solid #e5e5e5; }  
-.addnum p { display: inline-block; vertical-align: middle; width:.6rem; line-height: .4rem; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; }
+.addnum { width:2.5rem; margin:0 auto; }
+.addnum input[type="button"] { display: inline-block; background:none; outline: none; vertical-align: middle; background:url(../img/add-num.png) no-repeat; background-size: .42rem .39rem; text-align: center; width: .4rem; line-height: .4rem; font-size:.4rem; border:1px solid #e5e5e5; }  
+.addnum input[type="button"]:first-child { background:url(../img/minus-num.png) no-repeat; background-size: .42rem .39rem;  }
+.addnum input[type="text"] { display: inline-block; vertical-align: middle; width:.6rem; line-height: .4rem; font-size: .25rem; text-align: center;  border:none; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; }
 
 .cost { position: fixed; bottom:1.12rem; width: 100%; }
 .cost ul li { width: 100%; height: .8rem; line-height: .8rem; background-color: #fff; }
@@ -46,4 +47,4 @@ em { font-style: normal; }
 
 .pay { position: fixed; bottom:0; height: 1.1rem; line-height: 1.1rem; background-color: #fff; width: 100%; text-align: right; }
 .pay span { display: inline-block; vertical-align: middle; color:#e60012; margin-right:.2rem; }
-.pay .paynow { width: 1.8rem; height: .87rem; line-height: .87rem;  text-align: center; color:#fff; background-color: #ec6941; }
+.pay .paynow { width: 1.8rem; height: .87rem; line-height: .87rem;  text-align: center; color:#fff; background-color: #ec6941; border-radius: .03rem; }
