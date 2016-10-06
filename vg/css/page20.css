@@ -35,5 +35,7 @@ body .top-title .img-float img { width:.23rem; height: .38rem; }
 .active .add-content span { color:#ff6600; }
 .active p:first-child img {  width: .25rem; height: .25rem; }
 
-.new { width: 7.1rem; line-height: .9rem; background-color: #ec6941; text-align: center; color:#fff; font-size:.35rem; margin:0 .2rem; border-radius: .1rem; margin-top:.2rem; }
+.c { height: 1.2rem; }
+
+.new { position: fixed; bottom:.2rem; width: 7.1rem; line-height: .9rem; background-color: #ec6941; text-align: center; color:#fff; font-size:.35rem; margin:0 .2rem; border-radius: .1rem; margin-top:.2rem; }
 .new img { vertical-align: middle; margin-right: .2rem; height: .35rem; width: .35rem; }

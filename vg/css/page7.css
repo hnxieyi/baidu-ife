@@ -24,7 +24,7 @@ em { font-style: normal; }
 .content li { line-height: .8rem; color:#a0a0a0; border-bottom: .02rem solid #e5e5e5; text-indent: .2rem; }
 .content li input { font-size:.25rem; color:#a0a0a0; border:none; outline: none; }
 .content .add { height: 1.2rem; }
-.content .add textarea { height: .8rem; width: 70%; overflow: auto; background: none; margin-top:.2rem; line-height: .4rem; border:none; resize: none; font-size: .25rem; color:#a0a0a0; vertical-align: top; }
+.content .add textarea { height: .76rem; width: 70%; overflow:hidden; background: none; margin-top:.2rem; line-height: .4rem; border:none; resize: none; font-size: .25rem; color:#a0a0a0; vertical-align: top; }
 .content li span { display: inline-block; width:5rem;  }
 .content li:last-child span { vertical-align: top; }
 .button { width:7.12rem; height: .92rem; position: absolute; bottom:.2rem; left:3.75rem; margin-left:-3.56rem; background-color: #ec6941; border-radius: .03rem; line-height: .92rem; color:#fff;  font-size:.35rem; text-align: center;  }

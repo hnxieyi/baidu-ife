@@ -27,7 +27,7 @@ body .top-title .img-float img { width:.23rem; height: .38rem; }
 .add .b { width: 6rem; text-align: left; }
 .add .b .add-user { display: block; }
 .add .b .add-title span { display: inline-block;line-height: .5rem; }
-.add .b .add-title span:first-child { width: 1.3rem; min-width: 64px; vertical-align: top; }
+.add .b .add-title span:first-child { width: 1.4rem; min-width: 64px; vertical-align: top; }
 .add .b .add-title span:last-child { width:3.9rem;  }
 
 .items { margin-bottom: .08rem; }

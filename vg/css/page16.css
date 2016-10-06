@@ -14,7 +14,7 @@ em { font-style: normal; }
 .clear :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
 
 /* 头部 */
-body .top-title { margin-bottom: .2rem; }
+body .top-title { border-bottom: 1px solid #e5e5e5; margin-bottom: 1px; }
 body .top-title .img-float img { width:.23rem; height: .38rem; }
 
 /* 内容 */
@@ -32,6 +32,7 @@ body .top-title .img-float img { width:.23rem; height: .38rem; }
 .top .pic img { width: 7.5rem; height: 3.96rem;  }
 .top .round { position: absolute; bottom:-.2rem; left:3rem; }
 .top .round li { font-size:2rem; line-height: 0; display: inline-block; color:#fff; }
+.top .round .active { color:#ea6949; }
 
 /* 底部 */
 .footer { position: fixed; bottom: 0; width: 100%; height: 1rem; text-align: right; border-top:1px solid #e5e5e5; background-color: #fff; }
