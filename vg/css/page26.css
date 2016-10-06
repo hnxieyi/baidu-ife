@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.26rem; font-weight: normal; }
+body { height: 100%; background-color: #eee; }
+h1 { font-size:0.36rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+/* 头部 */
+body .top-title { background-color: #3da982; color:#fff; margin-bottom: 0; }
+body .top-title .img-float { font-size: .32rem; text-indent: .2rem; }
+body .top-title a { font-size:.28rem; color:#fff; }
+body .top-title .img-float { flex: 4;  }
+body .top-title h1 { flex:5; text-align: center; }
+
+/* 内容 */
+.search { line-height: 1.1rem; background-color: #fff; margin-bottom:1px; }
+.search input,.search p { display: inline-block; }
+.search input { width: 5.48rem; height: .7rem; color:#777; font-size: .28rem; text-indent:.15rem; margin-left:.2rem; border:1px solid #3da982; border-radius: .03rem; vertical-align: middle; }
+.search p { vertical-align: middle; float: right; margin-top:.22rem; margin-right:.2rem; width: 1.48rem; line-height: .72rem; color:#fff; background-color: #3da982; border-radius: .03rem; text-align: center; }
+
+.content { background-color: #fff; padding-bottom: .2rem; margin-bottom: 1px; }
+.user { height: 1.24rem;  }
+.user .user-info { float:left; margin-left: .2rem; }
+.user .user-info img,.user .user-info p { float: left; }
+.user .user-info img { width: .88rem; height: .88rem; margin-top:.16rem; }
+.user .user-info p { line-height: .44rem; margin-top: .16rem; margin-left:.2rem; font-size: .32rem; font-family: "黑体"; }
+.user .user-info span { font-size:.24rem; color:#555;}
+.user .user-btn { float: right;  margin-top:.2rem; margin-right: .2rem; }
+.user .user-btn img { width: .34rem; height: .36rem; }
+.content .time { font-size: .24rem; color: #999999; text-indent: .2rem; }
+
+
+/* 底部 */
+.footer { position: fixed; bottom: 0; width: 100%; line-height: 1rem; border-top:1px solid #e5e5e5; background-color: #fff; }
+.footer span { display: inline-block; width: 32%; text-align: center; }
+.footer span img { height: .4rem; height: .4rem; vertical-align: middle; }
+.footer span a { color:#777; vertical-align: middle; margin-left: .04rem; }

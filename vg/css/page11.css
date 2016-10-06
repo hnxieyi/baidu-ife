@@ -26,10 +26,11 @@ body .top-title .img-float img { width:.23rem; height: .38rem; }
 .user-items p span { vertical-align: middle; margin-left:.2rem; margin-right: .2rem; }
 .user-items p img:first-child { width:.35rem; height: .3rem; margin-left:.2rem; vertical-align: middle; }
 .user-items p img:last-child { width: .47rem; height: .47rem; vertical-align: middle; }
-.user-items ul li { height: 1.1rem; padding-bottom: .2rem; }
-.user-items ul li span { vertical-align: top; }
-.user-items ul li span:last-child { float: right; margin-top:.7rem; margin-right:.2rem; }
-.user-items ul li img { height: 1.1rem; width: 1.1rem; margin-left:.2rem; margin-right: .12rem; }
+.user-items ul li { position: relative; height: 1.1rem; padding-bottom: .2rem; }
+.user-items ul li span { line-height: .4rem; }
+.user-items ul li .text { display: block; height: .8rem; overflow: hidden; }
+.user-items ul li span:last-child { position: absolute; top:.8rem; right:.2rem; }
+.user-items ul li img { height: 1.1rem; width: 1.1rem; margin-left:.2rem; margin-right: .12rem; float: left; }
 
 .pay { margin-left:.2rem; margin-right: .2rem; }
 .pay li { line-height: 1rem; border-bottom: 1px solid #e5e5e5; }

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.3rem; font-weight: normal; }
+body { height: 100%; background-color: #f7f7f7; }
+h1 { font-size:0.36rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+/* 头部 */
+.top-title { display: flex; display: -webkit-flex; align-items:center; height:1.28rem; background-color: #fffaf3;border-bottom:.02rem solid #e5e5e5; overflow: auto; }
+.top-title .img-float { flex: 3;  }
+.top-title h1 { flex:6; text-align: center; }
+.top-title span { flex: 3; text-align: right; margin-right: .2rem; }
+.top-title span img { width: .25rem; height: .25rem; }
+
+/* 内容 */
+input { width: 100%; margin-top:.2rem; font-family: '微软雅黑'; line-height: .88rem; font-size:.28rem; color:#777; border:none; text-indent: .2rem; outline: none; }
+.btn { width: 7.1rem; margin:1rem auto 0; line-height: .88rem; text-align: center; background-color: #ff6600; color:#fff; border-radius: .06rem; }

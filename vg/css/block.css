@@ -1,5 +1,5 @@
 /* 通用的块 */
-.block { margin:0 .2rem; }
+.block { margin:0 .2rem; padding-bottom: .1rem; }
 .block .block-user { width:.88rem; float: left; margin:0 .2rem 0 .08rem; }
 .block .content { margin-left:1.17rem; }
 .block .content p { color:#777; line-height: .44rem; margin-bottom:.1rem; }
@@ -19,7 +19,7 @@
 .block-dialog { position: relative; }
 .block-dialog .block-dialog-fav { position: relative; display: none; width:100%; background-color:#f0f2f5; border-radius: .03rem .03rem 0 0; border-bottom:.02rem solid #fff; }
 .block-dialog-fav img {position: absolute; top:.08rem; left:0; width:.3rem; height: .3rem; margin-left:.1rem; margin-right: .2rem; vertical-align: middle; }
-.block-dialog-fav ul{  margin-right:.2rem; margin-left:.6rem; display: inline-block; }
+.block-dialog-fav ul{  margin-right:.2rem; margin-left:.6rem; display: inline-block; margin-bottom: .1rem; }
 .block-dialog-fav li {display: inline-block; font-size:.2rem; margin-left:.05rem; line-height: .2rem; color:#a9c8e4; }
 .block-dialog-text { width: 100%; background:#f0f2f5; border-radius: .03rem; }
 .block-dialog-text img { width:.25rem; height: .22rem; margin-left:.13rem; margin-top:.2rem; float: left; }
@@ -29,11 +29,13 @@
 .block-dialog .block-arrow { position: absolute; top:-.15rem; right:.1rem; border:.08rem solid #fff; border-bottom-color: #f0f2f5; background:#f0f2f5; }
 .block-dialog .block-more { position: absolute; top:-.44rem; right:.03rem; width:.3rem; height:.3rem; }
 .block-dialog .block-more img { width:.3rem; height: .3rem; }
-.block-more-content { display: none; position: absolute; top:-.22rem; right:.48rem; width:4.04rem; height: .64rem; background-color: #777; border-radius: .03rem; color:#fff; }
+.block-more-content { display: none; position: absolute; top:-.22rem; right:.48rem; width:4.04rem; min-width: 150px; height: .64rem; background-color: #777; border-radius: .03rem; color:#fff; }
 .block-more-content .block-more-arrow { position: absolute; right:-.15rem; top:.24rem; border:.08rem solid #fff; border-left-color: #777; }
+.block-more-content ul { text-align: center; }
 .block-more-content li { display: inline-block; line-height: .64rem; margin:0 .23rem; }
+.block-more-content li:first-child { margin-left:0; }
+.block-more-content li:last-child { margin-right: 0; } 
 .block-more-content li img { vertical-align: middle; width:.4rem; height: .4rem; margin-right: .06rem; }
-.block-dialog-text { margin-bottom: .2rem; }
 
 .block .block-dialog-text .emj { display: inline-block; float: none; margin:0; padding:0; margin-left:.02rem; width:.2rem; height: .2rem; }
 
