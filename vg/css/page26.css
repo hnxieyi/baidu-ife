@@ -21,7 +21,7 @@ body .top-title h1 { flex:5; text-align: center; }
 /* 内容 */
 .search { line-height: 1.1rem; background-color: #fff; margin-bottom:1px; }
 .search input,.search p { display: inline-block; }
-.search input { width: 5.48rem; height: .7rem; color:#777; font-size: .28rem; text-indent:.15rem; margin-left:.2rem; border:1px solid #3da982; border-radius: .03rem; vertical-align: middle; }
+.search input { width: 5rem; height: .7rem; color:#777; font-size: .28rem; text-indent:.15rem; margin-left:.2rem; border:1px solid #3da982; border-radius: .03rem; vertical-align: middle; }
 .search p { vertical-align: middle; float: right; margin-top:.22rem; margin-right:.2rem; width: 1.48rem; line-height: .72rem; color:#fff; background-color: #3da982; border-radius: .03rem; text-align: center; }
 
 .content { background-color: #fff; padding-bottom: .2rem; margin-bottom: 1px; }
@@ -35,6 +35,7 @@ body .top-title h1 { flex:5; text-align: center; }
 .user .user-btn img { width: .34rem; height: .36rem; }
 .content .time { font-size: .24rem; color: #999999; text-indent: .2rem; }
 
+.top-title .font-sz { font-size: .8rem; line-height: 0rem; } /* 当修改密码改成···的时候，应用.font-sz样式 */
 
 /* 底部 */
 .footer { position: fixed; bottom: 0; width: 100%; line-height: 1rem; border-top:1px solid #e5e5e5; background-color: #fff; }
