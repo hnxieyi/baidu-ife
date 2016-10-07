@@ -16,10 +16,9 @@ body .top-title { background-color: #3da982; color:#fff; margin-bottom: 0; }
 body .top-title a { font-size:.28rem; color:#fff; }
 
 /* 内容 */
-.search { line-height: 1.1rem; background-color: #fff; margin-bottom:1px; }
-.search input,.search p { display: inline-block; }
-.search input { width: 5.48rem; height: .7rem; color:#777; font-size: .28rem; text-indent:.15rem; margin-left:.2rem; border:1px solid #3da982; border-radius: .03rem; vertical-align: middle; }
-.search p { vertical-align: middle; float: right; margin-top:.22rem; margin-right:.2rem; width: 1.48rem; line-height: .72rem; color:#fff; background-color: #3da982; border-radius: .03rem; text-align: center; }
+.search { height: 1.1rem; line-height: 1.1rem; width: 7.5rem; margin:0 auto; position: relative; background-color: #fff; margin-bottom:1px; }
+.search input[type="text"] { width: 5.4rem; height: .7rem; color:#777; font-size: .28rem; text-indent:.15rem; margin-left:.2rem; border:1px solid #3da982; border-radius: .03rem; vertical-align: middle; }
+.search input[type="button"] { margin-right:.2rem; width: 1.48rem; line-height: .72rem; font-size: .26rem; font-family: '微软雅黑'; color:#fff; background-color: #3da982; border:none; border-radius: .03rem; text-align: center; vertical-align: middle; margin-left:.1rem; }
 
 .task { line-height: .8rem; background-color: #fff; margin-bottom: 1px; }
 .task li { display: inline-block; width: 32%; text-align: center; }
