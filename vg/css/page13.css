@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.26rem; font-weight: normal; }
+body { height: 100%; background-color: #fff; }
+h1 { font-size:0.28rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+.clear :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+/* 头部 */
+body .top-title { margin-bottom: .2rem; }
+body .top-title .img-float img { width:.23rem; height: .38rem; }
+
+/* 内容 */
+.content { width:7.08rem; margin:0 auto; border:.02rem solid #e5e5e5; padding:.09rem; background-color:#fff; margin-bottom: .2rem; }
+.content p { font-size:.28rem; line-height: .6rem; font-family: '黑体'; margin-top:.1rem; }
+.content img { width: 7.08rem; }
+.content .top-bg-opacity { position: relative; height:.67rem; margin-top: -.73rem; background:rgba(0,0,0,0.4); }
+.content .top-name { position: absolute; top:0; left:.2rem; }
+.content .top-name img { float:left; border:.01rem solid #e5e5e5; padding: .03rem; background-color: #fff; width:1.28rem; height: 1.28rem; }
+.content .top-name h1 { float: left; margin-left:.1rem; margin-top: .1rem; color:#fff; }
+.rent { border-top:1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; padding-left:.2rem; padding-right:.2rem; }
+.rent li { line-height: .8rem; border-bottom:1px solid #e5e5e5; }
+.rent li:last-child { border:none; }
+.rent li span { display: inline-block; width: 49%; }
+.rent li span:last-child { text-align: right; }
+
+.red { color:#e60012; }
+
+/* 底部 */
+.footer { position: fixed; bottom: 0; width: 100%; height: 1rem; text-align: right; border-top:1px solid #e5e5e5; background-color: #fff; }
+.footer span { display: inline-block; height:.52rem; border:1px solid #e60012; color: #e60012; padding-left:.1rem; padding-right:.1rem; border-radius: .03rem; text-align: center; vertical-align: middle; line-height: .52rem; margin-top:.2rem; margin-right:.2rem; }

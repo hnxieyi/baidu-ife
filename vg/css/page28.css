@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.3rem; font-weight: normal; }
+body { height: 100%; background-color: #fff; }
+h1 { font-size:0.36rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+/* 头部 */
+.top-title { position: fixed; top:0; width: 100%;  display: flex; display: -webkit-flex; align-items:center; height:1.28rem; background-color: #fffaf3;border-bottom:.02rem solid #e5e5e5; overflow: auto; }
+.top-title .img-float { flex: 3;  }
+.top-title .img-float img { width:.23rem; height:.38rem; margin-left:.2rem; margin-top:.1rem; }
+.top-title h1 { flex:6; text-align: center; }
+.top-title span { flex: 3; }
+
+.c { height: 1.28rem; }
+/* 内容 */
+.topic { padding:.2rem; }
+.topic img { display: inline-block; width: 2rem; height: 2rem; border:1px solid #e5e5e5; }
+.topic p { display: inline-block; vertical-align: top; font-size:.31rem; line-height: 1rem; margin-left: .1rem; }
+.topic p span { font-size: .23rem;  }
+
+
+.content { padding:.2rem; }
+.content .content-info { border:1px solid #e5e5e5; padding:.1rem; }
+.content .content-info img { display: inline-block; vertical-align: middle; }
+.content .content-info img:first-child { width: .25rem; height: .25rem; }
+.content .content-info .user { width: 1.28rem; height: 1.28rem; }
+.content .content-info p { display: inline-block; vertical-align: middle; line-height: .4rem; margin-left:.2rem; }
+.content .content-info span { float: right; color:#67b798; }
+.content .add { width: 100%; text-align: right; }
+
+.c { height: 1.2rem; }
+
+ /* 加减数量组件 */
+.addnum { display: block; margin-top:.1rem; }
+.addnum input[type="button"] { display: inline-block; background:none; outline: none; vertical-align: middle; background:url(../img/minus-num.png) no-repeat; background-size: .42rem .39rem; text-align: center; width: .4rem; line-height: .4rem; font-size:.4rem; border:1px solid #e5e5e5; border-radius:  0 .2rem .2rem 0; }  
+.addnum input[type="button"]:first-child { background:url(../img/add-num.png) no-repeat; background-size: .42rem .39rem; border-radius: .2rem 0 0 .2rem; }
+.addnum input[type="text"] { display: inline-block; vertical-align: middle; width:.6rem; line-height: .4rem; font-size: .25rem; text-align: center;  border:none; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; }
+
+.footer { position: fixed; bottom: 0; width: 100%; text-align: right; padding-left:.3rem; padding-right: .2rem; line-height: 1.2rem; background-color: #fff; border-top:1px solid #e5e5e5; }
+.footer span { display: inline-block; vertical-align: middle; width: 20%; }
+.footer span:first-child { text-align: left; } 
+.footer span:last-child { line-height: .4rem; width: 80%; }
+.footer span b { margin-right: .2rem; }
+.footer span em { display: inline-block; height: 1.2rem; line-height: .6rem; text-align: center; margin-right: .1rem; }
+.footer span a { display: inline-block; background-color: #ec6941; line-height: 1.2rem; color:#fff; padding-left:1rem; padding-right: 1.2rem;  float: right; text-align: center; }
+
+/* 单选框 */
+b { display: inline-block; vertical-align: middle; width: .25rem; height: .25rem; background:url(../img/no-choose.png) no-repeat; background-size: .25rem; }
+/* .footer span */ .checked { background: url(../img/choose.png) no-repeat; background-size: .25rem;  }

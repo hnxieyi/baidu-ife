@@ -1,0 +1,95 @@
+ul,li,body,p,h1 { list-style: none; padding:0; margin:0; font-family: '微软雅黑'; font-size:12px; }
+a { text-decoration: none; }
+em { font-style: normal; }
+.w1000{ width: 1000px; margin:0 auto; }
+.clr:after {content: ".";visibility: hidden;display: block;height: 0;clear: both;}  
+.clr {zoom: 1;}
+.fl { float: left; }
+.fr { float:right; }
+
+/* header */
+.header { height: 156px; }
+.top { height: 36px; line-height: 36px; color:#aeaeae; background-color: #262626;   }
+.top img { margin-top:-2px; margin-right: 4px; margin-left:8px; vertical-align: middle; }
+.top a { color:#fff; }
+.top .fl span { position: relative; cursor: pointer; }
+.top .fl span em { position: absolute; top:18px; left:28px;  display: inline-block; width:0; height: 4px; background: #75030c; }
+
+.nav {
+    height: 50px;
+    background: url(../img/nav_bg.png);
+}
+.nav_m>ul>li, .nav>ul>li>a {
+    float: left;
+}
+.nav_m>ul>li>a {
+    font: 16px/42px "微软雅黑";
+    display: inline-block;
+    height: 42px;
+    color: #494848;
+    padding: 0px 18px;
+}
+.nav_m>ul>li:hover,.nav_m>ul .active {
+    background: #222
+}
+.nav_m>ul>li:hover a,.nav_m>ul .active a { color:#fff; }
+.nav_m>ul>li:hover ul {
+    display: block;
+}
+.nav_m>ul>li {
+    position: relative;
+}
+.nav_m>ul>li>ul>li>a {
+    border: medium none;
+    color: #fff;
+    font: 14px/34px "微软雅黑";
+    text-decoration: none; display:block;
+}
+.nav_m>ul>li>ul>li>a:hover {
+    color: #fff
+}
+.nav_m>ul>li>ul {
+    width:309px;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #CCC;
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    left: -22px;
+    top: 42px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav_m>ul>li>ul>li {
+    border-right: 0 solid #003781;
+    color: #003781;
+    font: 12px/26px Calibri;
+    height: 34px;
+    padding-left: 20px;
+}
+
+.icon-star { width: 20px; height: 20px; margin-top:7px; margin-right: 10px; background:url(../img/star.png) no-repeat; }
+
+.logo span { float: right;margin-top:18px; }
+.logo span ul { margin-bottom:20px; text-align: right; }
+.logo span ul li { position: relative; display: inline-block; width:30px; height: 30px;  margin-right:12px;  }
+.logo span ul li img { position: absolute; left:0; top:0; cursor: pointer; }
+
+.logo span form { text-align: right; }
+.logo span input { vertical-align: middle; outline: none; }
+.logo span input[type="text"] { width: 268px; height: 36px; border:1px solid #ccc; font-size:14px; text-indent: 4px; }
+.logo span input[type="button"] { width: 40px; height: 40px; margin-left:-1px; border:1px solid #ccc; background:none; cursor: pointer; background:url(../img/icon/search.jpg); }
+
+.pic-scroll { width: 100%; height: 450px; position: relative; z-index: 3; overflow: hidden;  }
+.pic-scroll ul { width: 400%; position: absolute; left:0; top:0; }
+.pic-scroll ul li { width: 25%; float:left; }
+.pic-scroll ul li img { width: 100%; }
+
+.pic-scroll #left,.pic-scroll #right { position: absolute; top:180px; width: 60px; height: 90px; background-color: rgba(0,0,0,.2); cursor: pointer; text-align: center; line-height: 120px; }
+.pic-scroll #left { left:0; }
+.pic-scroll #right { right: 0; }
+.pic-scroll #left:hover { background-color: rgba(0,0,0,.4); }
+.pic-scroll #right:hover { background-color: rgba(0,0,0,.4); }
+.pic-scroll p { position: absolute; bottom:40px; left:50%; height:60px; margin-left:-60px; font-size:100px;  color:#fff; }
+.pic-scroll p em { line-height: 20px; }
+.pic-scroll p .yellow { color:yellow; }

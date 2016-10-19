@@ -1,0 +1,14 @@
+/* 格式化 */
+ul,li,p,h3,img { padding:0; margin:0; }
+.clear { *zoom: 1; }
+.clear:after { content: ''; display: table; clear: both; }
+/* 具体内容 */
+#pic { position: relative; width: 920px; height: 200px;  margin:0 auto; overflow: hidden; }
+ul { position: absolute; height: 200px; width: 1500px; }
+#pic ul li { float: left; margin-right:28px; width: 130px; height: 100px; overflow: hidden; }
+
+#picTop {  background: #fff; margin-bottom: 10px; }
+#picTop h3 { float: left; margin-left:20px; line-height: 40px; border-bottom: 2px solid #333; }
+#picTop p { float: right; line-height: 40px; margin-right: 20px; }
+#picTop p span { display: inline-block; width: 30px; cursor: pointer; text-align: center; vertical-align: middle; }
+

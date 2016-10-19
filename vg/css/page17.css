@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.26rem; font-weight: normal; }
+body { height: 100%; background-color: #fff; }
+h1 { font-size:0.28rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+.clear :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+/* 头部 */
+body .top-title { border-bottom: 1px solid #e5e5e5; }
+body .top-title .img-float img { width:.23rem; height: .38rem; }
+
+/* 内容 */
+
+.do { height: 1.56rem; }
+.do p { margin-left:.6rem; line-height: .6rem; }
+.do p span { color:#a0a0a0; }
+.do p .red { color:#e60012; }
+
+.pay { line-height: 1rem; background-color: #f7f7f7; }
+.pay img { width:.26rem; height: .26rem; vertical-align: middle; margin-left:.4rem; margin-right: .1rem; }
+
+.conf { position: fixed; width: 100%; bottom: 1rem; text-align: center; }
+.conf p { display: inline-block; line-height: .9rem; color: #fff; background-color: #71c2de; border-radius: .1rem; font-size:.5rem; padding:0 .6rem; }
+

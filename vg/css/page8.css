@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.3rem; font-weight: normal; }
+body { height: 100%; background-color: #eee; }
+h1 { font-size:0.36rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+/* 头部 */
+.top-title { display: flex; display: -webkit-flex; align-items:center; height:1.28rem; background-color: #fffaf3;border-bottom:.02rem solid #e5e5e5; overflow: auto; }
+.top-title .img-float { flex: 3;  }
+.top-title .img-float img { width:.23rem; height:.38rem; margin-left:.2rem; margin-top:.1rem; }
+.top-title h1 { flex:6; text-align: center; }
+.top-title span { flex: 3; }
+
+/* 内容 */
+
+.content img { width:.47rem; height: .47rem; float: right; margin-right:.2rem; margin-top:.2rem; }
+.content li { line-height: .8rem; color:#a0a0a0; border-bottom: .02rem solid #e5e5e5; }
+.content li span { display: inline-block; width:5rem;  }
+.content li:last-child span { vertical-align: top; }
+.button { width:7.12rem; height: .92rem; position: absolute; bottom:.2rem; left:3.75rem; margin-left:-3.56rem; background-color: #ec6941; border-radius: .03rem; line-height: .92rem; color:#fff;  font-size:.35rem; text-align: center;  }
+
+.product { width:100%; }
+.product .topic { line-height: 1rem; background-color: #fff; }
+.topic span { display: inline-block; width:50%; text-align: center; }
+.product ul {}
+.product ul li { height: 2rem; line-height: 2rem; width:100%; background-color: #fff; margin-top:.02rem; }
+.product ul li .item,.product ul li .add { display: inline-block; width:49%; text-align: center;  }
+.product ul li .item img { width:1.48rem; height: 1.48rem; vertical-align: middle; }
+.product ul li .item span { vertical-align: middle; }
+ /* 加减数量组件 */
+.addnum { width:2.5rem; margin:0 auto; }
+.addnum input[type="button"] { display: inline-block; background:none; outline: none; vertical-align: middle; background:url(../img/add-num.png) no-repeat; background-size: .42rem .39rem; text-align: center; width: .4rem; line-height: .4rem; font-size:.4rem; border:1px solid #e5e5e5; }  
+.addnum input[type="button"]:first-child { background:url(../img/minus-num.png) no-repeat; background-size: .42rem .39rem;  }
+.addnum input[type="text"] { display: inline-block; vertical-align: middle; width:.6rem; line-height: .4rem; font-size: .25rem; text-align: center;  border:none; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; }
+
+.cost { position: fixed; bottom:1.12rem; width: 100%; }
+.cost ul li { width: 100%; height: .8rem; line-height: .8rem; background-color: #fff; }
+.cost ul li span { display: inline-block; width: 49%; text-align: center; }
+.cost ul li span:last-child { color:#e60012; }
+
+.pay { position: fixed; bottom:0; height: 1.1rem; line-height: 1.1rem; background-color: #fff; width: 100%; text-align: right; }
+.pay span { display: inline-block; vertical-align: middle; color:#e60012; margin-right:.2rem; }
+.pay .paynow { width: 1.8rem; height: .87rem; line-height: .87rem;  text-align: center; color:#fff; background-color: #ec6941; border-radius: .03rem; }
+
+.k { height: 4rem; }

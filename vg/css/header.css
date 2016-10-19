@@ -1,0 +1,6 @@
+/* 头部 */
+.top-title { display: flex; display: -webkit-flex; align-items:center; height:1.28rem; background-color: #fffaf3; margin-bottom: .2rem; overflow: auto; }
+.top-title .img-float { flex: 3;  }
+.top-title .img-float img { width:.3rem; height:.3rem; margin-left:.2rem; margin-top:.1rem; }
+.top-title h1 { flex:6; text-align: center; }
+.top-title a { flex: 3; text-align: right; margin-right:.2rem; font-size:.2rem; color:#000; }

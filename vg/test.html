@@ -1,0 +1,144 @@
+
+
+   
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">    
+    <title>邻居菜园列表</title>
+    <script src="js/auto.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<!-- 头部 -->
+
+
+
+
+<div class="content" onclick="landDetails('17','2','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/photo/origin/201610/7a8d1d1b-47cf-4e72-a24f-71ab797d0b03.jpg">
+            <h1>地主：石健大地主</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('12','23','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/default/default_avatar.png">
+            <h1>地主：鸽子的菜园</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('11','20','1')">
+    <img src="http://farm-upload.others.ren/upload/photo/origin/20169/2e0e1678-1a77-4cee-97d2-e56b84971f43.jpg">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/avatar/origin/20169/226db389-34c5-45aa-8234-e08456c9bb4e.jpg">
+            <h1>地主：肖家庄</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('10','14','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/default/default_avatar.png">
+            <h1>地主：橙子的小菜园</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('9','15','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/avatar/origin/20169/46b5343c-956f-4163-9040-16457452d33b.jpg">
+            <h1>地主：蓝金伟的菜园</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('8','13','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/default/default_avatar.png">
+            <h1>地主：晓波的菜园</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('7','12','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/default/default_avatar.png">
+            <h1>地主：十六家的园子</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('6','10','1')">
+    <img src="http://farm-upload.others.ren/upload/photo/origin/20169/e774e2c1-f5ed-4ff8-81b3-075c543b1e3d.jpg">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/avatar/origin/20169/a2e28504-34f2-479c-af4a-e592b091b112.jpg">
+            <h1>地主：SP的开心菜园</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('5','11','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/default/default_avatar.png">
+            <h1>地主：嘻嘻</h1>            
+        </div>
+    </div>
+</div>
+
+<div class="content" onclick="landDetails('4','7','1')">
+    <img src="http://farm-upload.others.ren/upload/default/default_bg.png">
+    <div class="top-bg-opacity">
+        <div class="top-name">
+            <img src="http://farm-upload.others.ren/upload/default/default_avatar.png">
+            <h1>地主：刘宁的菜园</h1>            
+        </div>
+    </div>
+</div>
+
+<a id='flag_app_from' style="display: none"></a>
+<script type="text/javascript">
+//调APP跳转动态详情
+function landDetails(land_id,user_id,farm_id) {
+    bridge_new.callHandler('landDetails', {land_id:land_id,user_id:user_id,farm_id:farm_id}, function(responseData) {});
+}
+
+//调APP跳转搜索页
+function searchland() {
+    bridge_new.callHandler('jumpSearchLand', {}, function(responseData) {});
+}
+
+//调APP跳转农场列表
+function popupfarm() {
+    bridge_new.callHandler('popupFarm', {}, function(responseData) {});
+}
+</script>
+
+<a id='flag_app_from' style="display: none"></a>
+<script src="/assets/js/interactive_app.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/jquery-2.1.1.js"></script>
+<script src="/assets/js/jquery-1.12.2.min.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

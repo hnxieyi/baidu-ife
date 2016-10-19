@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.26rem; font-weight: normal; }
+body { height: 100%; background-color: #fff; }
+h1 { font-size:0.28rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+.clear :after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+/* 头部 */
+body .top-title { margin-bottom: .2rem; }
+body .top-title .img-float img { width:.23rem; height: .38rem; }
+
+/* 内容 */
+.content { width:7.08rem; margin:0 auto; border:.02rem solid #e5e5e5; padding:.09rem; background-color:#fff; margin-bottom: .2rem; }
+.content p { font-size:.28rem; line-height: .6rem; font-family: '黑体'; margin-top:.1rem; }
+.content img { width: 7.08rem; }
+.content .info span { display: inline-block; width: 49%; color:#a7a7a9; vertical-align: middle;  }
+.content .info img { width: .36rem; height: .36rem; vertical-align: middle; }
+.content .info span:last-child { text-align: right; }
+
+

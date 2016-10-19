@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* 格式化样式 */
+
+html,body,p,h1,h2,ul,li,a,b { margin:0; padding:0; font-color:#000; font-family: '微软雅黑'; font-size:.26rem; font-weight: normal; }
+body { height: 100%; }
+h1 { font-size:0.36rem; }
+h2 { font-size:0.32rem; }
+li { list-style: none; }
+a { text-decoration: none; }
+b { font-weight: normal; }
+em { font-style: normal; }
+
+/* 头部 */
+.top-title { height:1.28rem; line-height: 1.28rem; background-color: #fffaf3; margin-bottom: .2rem; border-bottom: .02rem solid #e5e5e5; overflow: hidden; }
+.top-title .img-float img { width:.23rem; height:.38rem; }
+.top-title .img-float { float:left; margin-left:.2rem; line-height: 1.52rem; }
+.top-title .search { float:right; margin-right:.2rem; }
+.top-title form { position: relative; width:6.34rem; height: .64rem; border:1px solid #e5e5e5; border-radius: .03rem; margin-top: .4rem; }
+.top-title form img { position: absolute; top:.22rem; left:.1rem; width: .3rem; height: .3rem; }
+.top-title form input[type="text"] { position: absolute; top:0; left:.5rem; width:4.8rem; height: .6rem; border:none; background: none; font-size:.26rem; outline: none; }
+.top-title form input[type="button"] { position: absolute; right:.2rem; top:0rem; height:.64rem; border:none; background: none; outline: none; font-size: .25rem; font-family: '微软雅黑'; cursor: pointer; }
+
+/* 内容 */
+.content { width:7.08rem; height: 5rem; margin:0 auto; border:.02rem solid #e5e5e5; padding:.09rem; background-color:#fff; }
+.content img { width: 7.08rem; }
+.content .top-bg-opacity { position: relative; height:.67rem; margin-top: -.73rem; background:rgba(0,0,0,0.4); }
+.content .top-name { position: absolute; top:0; left:.2rem; }
+.content .top-name img { float:left; border:.01rem solid #e5e5e5; padding: .03rem; background-color: #fff; width:1.28rem; height: 1.28rem; }
+.content .top-name h1 { float: left; margin-left:.18rem; margin-top: .1rem; color:#fff; }
