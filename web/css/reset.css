@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*公共样式*/
+*, *::after, *::before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+body { width:100%; font-family:'Noto Sans Chinese Light'; color:#333;}
+a,img,button,dd,dl,dt,div,span,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);outline:none;}
+html,body,ul,li,dl,dt,dd{padding:0; margin:0;}
+button, input[type=button], input[type=reset], input[type=submit] {cursor: pointer; -webkit-appearance: button; -moz-appearance: button; }
+a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+p{ padding:0; margin:0;}
+li{ list-style:none;}
+input{ padding:0; margin:0; font-size:14px; border:0;}
+.l{ float:left;}
+.r{ float:right;}
+a,img{ border:0; text-decoration:none; color:#676767;}
+i,em{ font-style:normal;}
+.border_none{ border:0 !important;}
+.hide{display:none;}
+.left{ float:left; }
+.right{ float:right;}
+.fon_24{ font-size:24px;}
+.fon_18{ font-size:18px;}
+.fon_16{ font-size:16px;}
+.fon_14{ font-size:14px;}
+.fon_12{ font-size:12px;}
+.img{ float:left; width:100%;}
+.img img{ float:left; width:100%; background-size:100%;}
+.mtb{ margin:20px 0;}
+.mt{ margin-top:20px;}
+
+#wrapper {position: absolute;}
+#scroller {position: absolute;z-index: 1;-webkit-tap-highlight-color: rgba(0,0,0,0);width: 100%;-webkit-transform: translateZ(0);-moz-transform: translateZ(0);-ms-transform: translateZ(0);-o-transform: translateZ(0);transform: translateZ(0);-webkit-touch-callout: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-webkit-text-size-adjust: none;-moz-text-size-adjust: none;-ms-text-size-adjust: none;-o-text-size-adjust: none;text-size-adjust: none; padding-bottom:15px;}
+
+
+/*翻页*/
+.pages{ float:left; width:100%;}
+.pages .pages_us{width: 90%; max-width: 768px; margin: 1.5em auto 2em; text-align: center;letter-spacing:-3px;}
+.pages li{display:inline-block; margin: 0 4px; padding:0; float:none; letter-spacing: 0px;}
+.pages li a{ position:relative; display:inline-block}
+.pages li a b,.pages li span{padding: .6em .8em; position:relative; float:left; z-index:5}
+.pages li a.trblBor:before{ border-radius:0.35em;z-index:1;}
+.pages li a.trblBor:hover:before {background-color: #f2f2f2;}
+.pages li a.trblBor:active:before {background-color: #e2e2e2;}
+.pages li a.trblBor b:active{ -webkit-transform: scale(0.8); -moz-transform: scale(0.8); -ms-transform: scale(0.8); -o-transform: scale(0.8); transform: scale(0.8);}
+.pages a.disabled {color: rgba(46, 64, 87, 0.4); pointer-events: none;}
+.pages a.disabled b::before, .pages a.disabled b::after { opacity: .4;}
+.pages li a.current:before,.pages li a.current,.pages li a.current:hover:before{ background-color:#0078AC; color:#fff;}
+/* .pages .button:first-of-type a b::before {content: '\00ab  ';}
+.pages .button:last-of-type a b::after {content: ' \00bb';} */
+
+/* animation */
+.cs3_hd{-webkit-transition: all .8s ease; -moz-transition: all .8s ease; -o-transition: all .8s ease;-ms-transition: all .8s ease; transition: all .5s ease;}
+.cs3_xy{-webkit-animation: cs3_xy 1s ease; -moz-animation: cs3_xy 1s ease; -o-animation: cs3_xy 1s ease; animation: cs3_xy 1s ease; -webkit-animation-fill-mode: backwards; -moz-animation-fill-mode: backwards; -o-animation-fill-mode: backwards; animation-fill-mode: backwards;}
+
+@keyframes cs3_xy {
+    0% { opacity: 0;transform:translateY(-20px);}
+    100% { opacity: 1;transform:translateY(0px);}
+}
+@-moz-keyframes cs3_xy {
+    0% {opacity: 0; transform:translateY(-20px);}
+    100% {opacity: 1; transform:translateY(0px);}
+}
+@-webkit-keyframes cs3_xy {
+    0% {opacity: 0;-webkit-transform:translateY(-20px);}
+    100% {opacity: 1; -webkit-transform:translateY(0px);}
+}
+
+@-o-keyframes cs3_xy {
+    0% { opacity: 0;-o-transform:translateY(-20px);}
+    100% { opacity: 1;-o-transform:translateY(0px);}
+}
+@-ms-keyframes cs3_xy {
+    0% { opacity: 0;-ms-transform:translateY(-20px);}
+    100% { opacity: 1;-ms-transform:translateY(0px);}
+}
+
+
+
+/*边框*/
+/*上，下边框*/
+.tBor:before,.bBor:after{ position:absolute; content: ""; height:1px; background:#d6d6d6; left:0; right:0;}
+.tBor:before{ top:0;}
+.bBor:after{ bottom:0;}
+
+/*左，右边框*/
+.lBor:before,.rBor:after{ position:absolute; content: ""; width:1px; background:#d6d6d6; top:0; bottom:0;}
+.lBor:before{ left:0;}
+.rBor:after{ right:0;}
+
+/*四边框*/
+.trblBor:before{ position:absolute; content:""; top:0; left:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;  box-sizing:border-box; width:100%; height:100%; border:1px solid #e5e5e5; point-events:none;
+ background-color:#fff;}
+
+/* 最后两个是为了检测Mobile ie9, 是因为Mobile IE9检测出的dpi为96dpi，与实际不符合 */
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast:active), (-ms-high-contrast:none) {
+    /*上，下边框*/
+    .tBor:before,.bBor:after{ -webkit-transform:scaleY(.5); -ms-transform:scaleY(.5); -o-transform:scaleY(.5); transform:scaleY(.5);}
+
+    /*左，右边框*/
+    .lBor:before,.rBor:after{ -webkit-transform:scaleX(.5); -ms-transform:scaleX(.5); -o-transform:scaleX(.5); transform:scaleX(.5); }
+
+    /*四边边框*/
+    .trblBor:before{ width:200%; height:200%; -webkit-transform:scale(.5); -ms-transform:scale(.5); -o-transform:scale(.5); transform:scale(.5);}
+
+    /*上，左边框, 四边边框*/
+    .tBor:before,.lBor:before,.trblBor:before{ -webkit-transform-origin:0 0; -moz-transform-origin:0 0; -ms-transform-origin:0 0; -o-transform-origin:0 0; transform-origin:0 0;}
+
+    /*下，右边框*/
+    .bBor:after,.rBor:after{ -webkit-transform-origin:100% 100%; -moz-transform-origin:100% 100%; -ms-transform-origin:100% 100%; -o-transform-origin:100% 100%; transform-origin:100% 100%;}
+}
+
+/* 解决1.5屏幕下某些边框不显式问题，小数位多写几位 */
+@media (-webkit-device-pixel-ratio: 1.5){
+    /*上，下边框*/
+    .tBor:before,.bBor:after{ -webkit-transform:scaleY(.66666666); -ms-transform:scaleY(.66666666);  -o-transform:scaleY(.66666666); transform:scaleY(.66666666);}
+
+    /*左，右边框*/
+    .lBor:before,.rBor:after{ -webkit-transform:scaleX(.6666); -ms-transform:scaleX(.6666); -o-transform:scaleX(.6666); transform:scaleX(.6666);}
+
+    /*四边框*/
+    .trblBor:before{ width:150%; height:150%; -webkit-transform:scale(.6666); -ms-transform:scale(.6666); -o-transform:scale(.6666); transform:scale(.6666); }
+}
+
+@media (-webkit-device-pixel-ratio: 3){
+    /*上，下边框*/
+    .tBor:before,.bBor:after{ -webkit-transform:scaleY(.3333); -ms-transform:scaleY(.3333); -o-transform:scaleY(.3333); transform:scaleY(.3333);}
+
+    /*左，右边框*/
+    .lBor:before,.rBor:after{ -webkit-transform:scaleX(.3333); -ms-transform:scaleX(.3333); -o-transform:scaleX(.3333); transform:scaleX(.3333); }
+    /*四边框*/
+    .trblBor:before{ width:300%; height:300%; -webkit-transform:scale(.3333); -ms-transform:scale(.3333); -o-transform:scale(.3333); transform:scale(.3333);}
+}
+
+.parsley-required{ position:absolute;right:-80px; height:36px; text-align:left; width:70px; top:0; line-height:36px; color:#EC3232;}

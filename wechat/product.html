@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, inital-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="telephone=no" name="format-detection">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<link rel="stylesheet" href="css/wechat.css"> 
+    <link rel="stylesheet" href="css/reset.css">
+<title>名称</title>
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript">
+var myScroll;
+function loaded () {
+	myScroll = new IScroll('#wrapper', { mouseWheel: true });
+}
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+</script>
+</head>
+
+<body onload="loaded()">
+<header>
+	<div class="header_1">
+    	<div class="l">
+            <input class="back" type="button">
+        </div>
+        <div class="center_word">
+        	<span>商品详情</span>
+        </div>
+        <div class="r">
+        	<input class="t_more" type="button">
+        </div>
+    </div>
+</header>
+<div class="main mtb" style="background-color:#fff" id="wrapper">
+	<div id="scroller">
+        <!--商品大图 开始-->
+        <div class="pr_big_img bBor">
+        	<ul class="bg_img">
+            	<li class="on" style="background-image:url(img/shop/pr111.jpg)"><img src="img/shop/product-img-bg.png"></li>
+                <li style="background-image:url(img/shop/pr111.jpg)"><img src="img/shop/product-img-bg.png"></li>
+                <li style="background-image:url(img/shop/pr111.jpg)"><img src="img/shop/product-img-bg.png"></li>
+                <li style="background-image:url(img/shop/pr111.jpg)"><img src="img/shop/product-img-bg.png"></li>
+                <li style="background-image:url(img/shop/pr111.jpg)"><img src="img/shop/product-img-bg.png"></li>
+            </ul>
+            <div class="nu">1/5</div>
+        </div>	
+        <!--商品大图 结束-->
+        <!--商品信息 开始-->
+        <div class="pr_infor bBor">
+        	<div class="fon_14">Apple iPhone 6s (A1700) 16G 玫瑰金色 移动联通电信 4G手机 </div>
+            <div class="fon_12 bBor">4.7英寸显示屏，64位架构的A9芯片，后置摄像头1200万像素</div>
+            <div class="price"><span class="sj">5638.00</span><span class="fon_12">¥6088.00</span></div>
+        </div>
+        <!--商品信息 结束-->
+        <div class="clear"></div>
+        <!--规格 开始-->
+        <div class="norm line_next tBor bBor">
+        	<span class="l">已选：</span>
+            <span class="l width">"玫瑰金","官方标配","64GB","中国大陆"</span>
+            <span class="next_btn"><input type="button" class="next"></span>
+        </div>
+        <!--规格 结束-->
+        <div class="clear"></div>
+        <!--其他 开始-->
+        <div class="other_infor">
+        	<div class="line_next bBor tBor">
+            	<span class="l">规格参数</span>
+                <span class="next_btn"><input type="button" class="next"></span>
+            </div>
+            <div class="line_next bBor">
+            	<span class="l">图文详情</span>
+                <span class="next_btn"><input type="button" class="next"></span>
+            </div>
+            <div class="line_next bBor">
+            	<span class="l">商品评价</span>
+                <span class="word_red">好评率96%</span>
+                <span class="fon_12">(10944人评价)</span>
+                <span class="next_btn"><input type="button" class="next"></span>
+            </div>
+        </div>
+        <!--其他 结束-->
+        <div class="clear"></div>
+    </div>
+</div>
+
+<footer>
+	<div class="footer_1 fon_14 tBor">
+    	<span class="gwc"><div class="number">12</div></span>
+        <span class="sc"></span>
+        <span class="ljgm btn64">立即购买</span>
+        <span class="jrgwc btn64">加入购物车</span>
+    </div>
+</footer>
+</body>
+</html>

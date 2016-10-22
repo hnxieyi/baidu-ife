@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, inital-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="telephone=no" name="format-detection">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<link rel="stylesheet" href="css/wechat.css"> 
+    <link rel="stylesheet" href="css/reset.css">
+<title>名称</title>
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript">
+var myScroll;
+function loaded () {
+	myScroll = new IScroll('#wrapper', { mouseWheel: true });
+}
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+</script>
+</head>
+
+<body onload="loaded()">
+<header>
+	<div class="header_1">
+    	<div class="l">
+            <input class="back" type="button">
+        </div>
+        <div class="center_word">
+        	<span>商品详情</span>
+        </div>
+        <div class="r">
+        	<input class="t_more" type="button">
+        </div>
+    </div>
+</header>
+<div class="main mt" id="wrapper">
+	<div id="scroller">
+        <!--商品图文介绍 开始-->
+        <div class="product_imgword">
+        	<div class="img"><img src="img/shop/imgword1.jpg"></div>
+            <div class="img"><img src="img/shop/imgword2.jpg"></div>
+            <div class="img"><img src="img/shop/imgword3.jpg"></div>
+            <p>随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么随便写点什么</p>
+        </div>
+        <!--商品图文介绍 结束-->
+    </div>
+</div>
+</body>
+</html>
