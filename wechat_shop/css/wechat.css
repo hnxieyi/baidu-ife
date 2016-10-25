@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 body{ background-color:#f1f1f1;}
-header .header_1{ background-color:#0096ff; color:#fff;}
+header .header_1{ background-color:#009148; color:#fff;}
 header .header_1 .center_word span em{ position:absolute; top:0px; left:-16px; background:url(../img/shop/dingwei.png) no-repeat; background-size:100%; width:16px; height:16px;}
 header .t_more_btn{ background-color:#333; color:#fff;}
 .clear{ float:left; width:100%; height:10px; background-color:#f1f1f1;}
 .btn64{ border-radius:3px; height:32px; line-height:32px; text-align:center;}
-.blueword{ color:#0096ff;}
+.blueword{ color:#009148;}
 
 /*首页*/
 /*首页－轮播*/
@@ -304,7 +304,7 @@ label{-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transi
 .main .add_list li{ float:left; width:100%; padding:10px 14px; position:relative; background-color:#fff;}
 .main .add_list li .fon_16,.main .add_list li .fon_14{ float:left; width:100%; line-height:140%;}
 .main .add_list li .fon_16 em{ padding-right:14px; padding-bottom:6px; float:left;}
-.main .add_list li.on{ background-color:#26d0ff; color:#fff;}
+.main .add_list li.on{ background-color:#02c462; color:#fff;}
 
 /*优惠券*/
 header .header_4{ height:124px !important;}

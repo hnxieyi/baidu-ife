@@ -44,7 +44,7 @@ header .header_2 .r{ width:15%;}
 header .header_3{ height:80px;}
 header .header_3 .fixed_title{ float:left; width:100%; height:36px; background-color:#fff; position:relative; color:#666;}
 header .header_3 .fixed_title li{ float:left; width:25%; text-align:center; height:36px; line-height:36px;-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;-ms-transition: all .5s ease; transition: all .5s ease;}
-header .header_3 .fixed_title li.on{ border-bottom:2px solid #0096ff; color:#0096FF;}
+header .header_3 .fixed_title li.on{ border-bottom:2px solid #009148; color:#009148;}
 
 header .t_more_btn{ position:absolute; top:43px; left:0; right:0; width:100%; height:50px; z-index:49;}
 header .t_more_btn li{ float:left; width:25%; height:43px; margin-top:7px; padding-top:25px; font-size:12px;}
@@ -86,7 +86,7 @@ header .t_more_btn li.icon-4{ background-image:url(../img/shop/t-icon4.png);back
 .footer_1 i{ float:left; height:28px; margin-top:11px; text-indent:-9999px; border-left:1px solid #d6d6d6;}
 .footer_1 li span{ position:relative; padding-left:30px; color:#666;}
 .footer_1 .ft2{padding-left:24px;}
-.footer_1 .on span{ color:#0096ff}
+.footer_1 .on span{ color:#009148}
 .footer_1 .ft1 em,.footer_1 .ft3 em{ position:absolute; left:4px; width:22px; height:50px; background: center center no-repeat; background-size:100%;}
 .footer_1 .ft2 em{ position:absolute; left:-8px; width:22px; height:50px; background: center center no-repeat; background-size:100%;}
 .footer_1 .ft1 em{ background-image:url(../img/shop/icon-1.png);}
